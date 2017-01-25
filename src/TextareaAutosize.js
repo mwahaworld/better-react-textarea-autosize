@@ -72,6 +72,7 @@ export default class TextareaAutosize extends React.Component {
 
   render() {
     let {
+      inputRef,
       valueLink,
       minRows: _minRows,
       maxRows: _maxRows,
@@ -133,6 +134,8 @@ export default class TextareaAutosize extends React.Component {
   }
 
   _onRootDOMNode(node) {
+    const { inputRef } = this.props;
+    typeof inputRef === 'function' && inputRef(node);
     this._rootDOMNode = node;
   }
 
