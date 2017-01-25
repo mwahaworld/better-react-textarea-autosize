@@ -12,14 +12,20 @@ class Demo extends React.Component {
     this.changeValueProgramatically = this.changeValueProgramatically.bind(this);
   }
 
+  componentDidMount() {
+    this.field.focus();
+  }
+
   render() {
+
     return (
       <div>
         <div>
           <TextareaAutosize
             maxRows={3}
             style={{lineHeight: 1, fontSize: 10, border: 0, boxSizing: 'border-box'}}
-            />
+            inputRef={(node) => { this.field = node; }}
+          />
         </div>
         <div>
           <h2>Component with maxRows and minRows</h2>
