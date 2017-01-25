@@ -1,5 +1,5 @@
 {
-  "name": "@rtivital/react-textarea-autosize",
+  "name": "better-react-textarea-autosize",
   "description": "textarea component for React which grows with content",
   "version": "4.0.6",
   "keywords": "autosize, grow, react, react-component, textarea",
