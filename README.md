@@ -1,5 +1,5 @@
 # better-react-textarea-autosize
-Fork of [https://github.com/andreypopp/react-textarea-autosize](react-textarea-autosize). Includes everything from the original package, but allows to create a ref to component.
+Fork of [react-textarea-autosize](https://github.com/andreypopp/react-textarea-autosize). Includes everything from the original package, but allows to create a ref to component.
 
 ## Install
 ```
