@@ -11,8 +11,7 @@
     "prepublish": "make clean build || true"
   },
   "peerDependencies": {
-    "react": ">=0.14.0 <16.0.0",
-    "prop-types": ">=0.14.0 <16.0.0"
+    "react": ">=0.14.0 <=16.4.1"
   },
   "devDependencies": {
     "babel-cli": "^6.11.4",
@@ -22,9 +21,10 @@
     "eslint": "^3.3.1",
     "eslint-config-prometheusresearch": "^0.2.0",
     "eslint-plugin-react": "^6.1.2",
-    "react": "^15.3.1",
-    "react-dom": "^15.3.1",
-    "watchify": "^3.7.0"
+    "react": "^16.4.1",
+    "react-dom": "^16.4.1",
+    "watchify": "^3.7.0",
+    "prop-types": "latest"
   },
   "files": [
     "lib"
